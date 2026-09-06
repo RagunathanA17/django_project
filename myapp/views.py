@@ -7,3 +7,6 @@ def index(request):
 
 def work(request):
     return render(request, 'myapp/index.html')
+
+def place(request):
+    return HttpResponse("Working in perungudi for his IT Works")
