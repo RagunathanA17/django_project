@@ -13,3 +13,6 @@ def place(request):
 
 def salary(request):
     return HttpResponse("monthly 5k, there are providing for the interns")
+
+def task(request):
+    return HttpResponse("Doing a web oriented task based projects")
