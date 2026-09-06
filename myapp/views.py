@@ -10,3 +10,6 @@ def work(request):
 
 def place(request):
     return HttpResponse("Working in perungudi for his IT Works")
+
+def salary(request):
+    return HttpResponse("monthly 5k, there are providing for the interns")
