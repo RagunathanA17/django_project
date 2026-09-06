@@ -19,3 +19,6 @@ def task(request):
 
 def frds(request):
     return HttpResponse("Overall city my frds only")
+
+def college(request):
+    return HttpResponse("AVS College of arts & Science, salem")
