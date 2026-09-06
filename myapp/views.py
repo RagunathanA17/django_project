@@ -16,3 +16,6 @@ def salary(request):
 
 def task(request):
     return HttpResponse("Doing a web oriented task based projects")
+
+def frds(request):
+    return HttpResponse("Overall city my frds only")
